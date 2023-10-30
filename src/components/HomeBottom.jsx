@@ -5,7 +5,7 @@ import { FeatureCardData, TokenCardData } from '../constants'
 
 const HomeBottom = () => {
   return (
-    <section className="border-b-[1px] border-[#ffffff] flex flex-col items-center gap-[150px]">
+    <section className="border-b-[1px] border-[#404040] flex flex-col items-center gap-[150px]">
 
       <div className=' flex flex-row items-center pl-[67px] pt-[72px] gap-[130px] w-full'>
         {FeatureCardData.map((card,index) => (
