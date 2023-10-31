@@ -1,24 +1,25 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <section className='border-b-[0.5px] border-[#434242] w-full h-[56px] navbar flex flex-row justify-between items-center bg-[#191919] text-[#a4a4a4]'>
 
-      <div className='cursor-pointer w-1/5 flex items-center gap-[0px] ml-[20px]'>
+      <Link to="/" className='cursor-pointer w-1/5 flex items-center gap-[0px] ml-[20px]'>
         <img src="src\assets\Logo.png" alt="logo" className='w-[50px] ' />
         <img src="src\assets\Logo2.png" alt="logo-2" className=' ml-[-17px] w-[120px] h-[40px]' />
-      </div>
+      </Link>
 
       <div className='w-4/5 flex flex-row gap-[37px] items-center'>
         <div className='flex flex-row gap-[30px] items-center text-[#a4a4a4] text-[14px] font-[400] tracking-[0.5px]'>
-          <div className='cursor-pointer hover:text-[#e7e7e7]'>Home</div>
-          <div className='cursor-pointer hover:text-[#e7e7e7]'>Dashboard</div>
-          <div className='cursor-pointer hover:text-[#e7e7e7]'>NFT</div>
-          <div className='cursor-pointer hover:text-[#e7e7e7]'>Earn</div>
-          <div className='cursor-pointer hover:text-[#e7e7e7]'>Buy</div>
-          <div className='cursor-pointer hover:text-[#e7e7e7]'>Referrals</div>
-          <div className='cursor-pointer hover:text-[#e7e7e7]'>Ecosystem</div>
-          <div className='cursor-pointer hover:text-[#e7e7e7]'>About</div>
+          <NavLink to="/" className='cursor-pointer hover:text-[#e7e7e7]'>Home</NavLink>
+          <NavLink to="/dashboard" className='cursor-pointer hover:text-[#e7e7e7]'>Dashboard</NavLink>
+          <NavLink to="/" className='cursor-pointer hover:text-[#e7e7e7]'>NFT</NavLink>
+          <NavLink to="/earn" className='cursor-pointer hover:text-[#e7e7e7]'>Earn</NavLink>
+          <NavLink to="/" className='cursor-pointer hover:text-[#e7e7e7]'>Buy</NavLink>
+          <NavLink to="/" className='cursor-pointer hover:text-[#e7e7e7]'>Referrals</NavLink>
+          <NavLink to="/" className='cursor-pointer hover:text-[#e7e7e7]'>Ecosystem</NavLink>
+          <NavLink to="/" className='cursor-pointer hover:text-[#e7e7e7]'>About</NavLink>
         </div>
 
         <div className='flex flex-row gap-[20px] items-center'>
