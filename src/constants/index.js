@@ -173,10 +173,6 @@ export const TokenIndex = [
     top: [
       {
         token: "TOKEN",
-        // price: "PRICE",
-        // pool: "POOL",
-        // weight: "WEIGHT",
-        // util: "UTILIZATION",
       },
       {
         token:"PRICE"
@@ -194,14 +190,6 @@ export const TokenIndex = [
     ],
 
     list: [
-
-      // {
-      //       name: "TOKEN",
-      //       price: "PRICE",
-      //       pool: "POOL",
-      //       weight: "WEIGHT",
-      //       util: "UTILIZATION",
-      //     },
       {
         image: diamond,
         name: "Ethereum",
@@ -244,3 +232,242 @@ export const TokenIndex = [
     ]
   },
 ];
+
+export const EarnData1= [
+  {
+    title: "$ZOMI",
+    button1: "Buy $ZOMI",
+    list1: [
+      {
+        left: "Price",
+        right: "$0.00",
+      },
+      {
+        left: "Wallet",
+        right: "... $ZOMI ($...)",
+      },
+      {
+        left: "Staked",
+        right: "... $ZOMI ($...)",
+      },
+    ],
+    list2: [
+      {
+        left: "APR",
+        right: "...%",
+      },
+      {
+        left: "Rewards",
+        right: "$...",
+      },
+      {
+        left: "Multiplier Points APR",
+        right: "100.00%",
+      },
+      {
+        left: "Boost Percentage",
+        right: "...%",
+      },
+    ],
+    list3:[
+      {
+        left: "Total Staked",
+        right: "0 $ZOMI ($...)",
+      },
+      {
+        left: "Total Supply",
+        right: "10,000 $ZOMI ($10)",
+      },
+    ]
+  },
+];
+
+export const EarnData2 = [
+  {
+    title: "Total Rewards",
+    button1: "Connect Wallet",
+    list1: [
+      {
+        left: "ETH (WETH)",
+        right: "... ($...)",
+      },
+      {
+        left: "$ZOMI",
+        right: "... ($...)",
+      },
+      {
+        left: "Escrowed $ZOMI",
+        right: "... ($...)",
+      },
+      {
+        left: "Multiplier Points",
+        right: "...",
+      },
+      {
+        left: "Staked Multiplier Points",
+        right: "...",
+      },
+      {
+        left: "Total",
+        right: "$...",
+      },
+    ],
+    list2: [
+      {
+        left: "",
+        right: "",
+      },
+      {
+        left: "",
+        right: "",
+      },
+    ],
+    list3: [
+      {
+        left: "",
+        right: "",
+      },
+      {
+        left: "",
+        right: "",
+      },
+    ],
+  },
+];
+
+export const EarnData3 = [
+  {
+    title: "$ZLP (Ethereum)",
+    button1: "Buy $ZLP",
+    button2: "Sell $ZLP",
+    list1: [
+      {
+        left: "Price",
+        right: "$...",
+      },
+      {
+        left: "Wallet",
+        right: "... $ZLP ($...)",
+      },
+      {
+        left: "Staked",
+        right: "... $ZLP ($...)",
+      },
+    ],
+
+    list2: [
+      {
+        left: "APR",
+        right: "...%",
+      },
+      {
+        left: "Rewards",
+        right: "$...",
+      },
+    ],
+
+    list3: [
+      {
+        left: "Total Staked",
+        right: "... $ZLP ($...)",
+      },
+      {
+        left: "Total Supply",
+        right: "... $ZLP ($...)",
+      },
+    ],
+  },
+];
+
+export const EarnData4 = [
+  {
+    title: "Escrowed $ZOMI",
+    button1: "Connect Wallet",
+    list1: [
+      {
+        left: "Price",
+        right: "$0.00",
+      },
+      {
+        left: "Wallet",
+        right: "... esZOMI ($...)",
+      },
+      {
+        left: "Staked",
+        right: "... esZOMI ($...)",
+      },
+    ],
+
+    list2: [
+      {
+        left: "APR",
+        right: "...%",
+      },
+      {
+        left: "Multiplier Points APR",
+        right: "100.00%",
+      },
+    ],
+
+    list3: [
+      {
+        left: "Total Staked",
+        right: "... esZOMI ($...)",
+      },
+      {
+        left: "Total Supply",
+        right: "1,023,379 esZOMI ($1,063)",
+      },
+    ],
+  },
+];
+
+export const Vest = [
+  {
+    title: "$ZOMI Vault",
+    list: [
+      {
+        left: "Staked Tokens",
+        right: "...",
+      },
+      {
+        left: "Reserved for Vesting",
+        right: "0.00 / ...",
+      },
+      {
+        left: "Vesting Status",
+        right: "0.0000 / 0.0000",
+      },
+      {
+        left: "Claimable",
+        right: "0.0000 $ZOMI",
+      },
+    ],
+    button: "Connect Wallet"
+  },
+
+  {
+    title: "$ZLP Vault",
+    list: [
+      {
+        left: "Staked Tokens",
+        right: "... $ZLP",
+      },
+      {
+        left: "Reserved for Vesting",
+        right: "0.00 / ...",
+      },
+      {
+        left: "Vesting Status",
+        right: "0.0000 / 0.0000",
+      },
+      {
+        left: "Claimable",
+        right: "0.0000 $ZOMI",
+      },
+    ],
+    button: "Connect Wallet"
+  },
+];
+
+
