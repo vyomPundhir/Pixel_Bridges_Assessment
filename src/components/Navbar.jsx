@@ -1,6 +1,9 @@
 import React from 'react'
 import logo from "../assets/Logo.png";
 import logo2 from "../assets/Logo2.png";
+import wallet from "../assets/wallet.svg";
+import diamond from "../assets/diamond.svg";
+import threedots from "../assets/three-dots.svg";
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -29,14 +32,14 @@ const Navbar = () => {
           <button className='bg-[#4ec499] text-[white] px-[15px] py-[6px] text-[14px] rounded-[5px] hover:bg-[#207A59]'><a href="https://zomi.finance/#/trade" target="_blank" rel="noopener noreferrer">Trade</a></button>
 
           <button className='hover:bg-[#2A2A2A] border-[0.5px] border-[#434343] flex flex-row items-center font-[500] text-[#e7e7e7] text-[12px] gap-[6px] rounded-[3px] px-[15px] py-[5px] tracking-[0.5px]'>
-            <img src="src\assets\wallet.svg" alt="" className='w-[21.5px]' />
+            <img src={wallet} alt="" className='w-[21.5px]' />
             Connect Wallet
           </button>
 
           <button className='hover:bg-[#2A2A2A] border-[0.5px] border-[#434343] flex flex-row items-center rounded-[3px] pl-[8px] pr-[7px] py-[3px] text-[#5d5d5d] text-[20px]'>
-            <img src="src\assets\diamond.svg" alt="" className='w-[18px]'/>
+            <img src={diamond} alt="" className='w-[18px]'/>
             <span className='mt-[-5px] ml-[3px]'>|</span>
-            <img src="src\assets\three-dots.svg" alt="" className='w-[18px] ml-[5px]' />
+            <img src={threedots} alt="" className='w-[18px] ml-[5px]' />
           </button>
 
         </div>
