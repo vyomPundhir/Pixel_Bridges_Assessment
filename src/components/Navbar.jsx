@@ -1,4 +1,6 @@
 import React from 'react'
+import logo from "../assets/Logo.png";
+import logo2 from "../assets/Logo2.png";
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -6,8 +8,8 @@ const Navbar = () => {
     <section className='border-b-[0.5px] border-[#434242] w-full h-[56px] navbar flex flex-row justify-between items-center bg-[#191919] text-[#a4a4a4]'>
 
       <Link to="/" className='cursor-pointer w-1/5 flex items-center gap-[0px] ml-[20px]'>
-        <img src="src\assets\Logo.png" alt="logo" className='w-[50px] ' />
-        <img src="src\assets\Logo2.png" alt="logo-2" className=' ml-[-17px] w-[120px] h-[40px]' />
+        <img src={logo} alt="logo" className='w-[50px] ' />
+        <img src={logo2} alt="logo2" className=' ml-[-17px] w-[120px] h-[40px]' />
       </Link>
 
       <div className='w-4/5 flex flex-row gap-[37px] items-center'>
