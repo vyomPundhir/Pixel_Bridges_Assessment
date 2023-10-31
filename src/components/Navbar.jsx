@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <section className='border-[1px] w-full h-[56px] navbar flex flex-row justify-between items-center bg-[#191919] text-[#a4a4a4]'>
+    <section className='border-b-[0.5px] border-[#434242] w-full h-[56px] navbar flex flex-row justify-between items-center bg-[#191919] text-[#a4a4a4]'>
 
       <div className='cursor-pointer w-1/5 flex items-center gap-[0px] ml-[20px]'>
         <img src="src\assets\Logo.png" alt="logo" className='w-[50px] ' />
@@ -23,7 +23,7 @@ const Navbar = () => {
 
         <div className='flex flex-row gap-[20px] items-center'>
 
-          <button className='bg-[#4ec499] text-[white] px-[15px] py-[6px] text-[14px] rounded-[5px] hover:bg-[#207A59]'>Trade</button>
+          <button className='bg-[#4ec499] text-[white] px-[15px] py-[6px] text-[14px] rounded-[5px] hover:bg-[#207A59]'><a href="https://zomi.finance/#/trade" target="_blank" rel="noopener noreferrer">Trade</a></button>
 
           <button className='hover:bg-[#2A2A2A] border-[0.5px] border-[#434343] flex flex-row items-center font-[500] text-[#e7e7e7] text-[12px] gap-[6px] rounded-[3px] px-[15px] py-[5px] tracking-[0.5px]'>
             <img src="src\assets\wallet.svg" alt="" className='w-[21.5px]' />
