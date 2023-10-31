@@ -1,34 +1,41 @@
 import React from 'react'
+import logo from "../assets/Logo.png";
+import logo2 from "../assets/Logo2.png";
+import twitter from "../assets/twitter.svg";
+import medium from "../assets/medium.svg";
+import discord from "../assets/discord.svg";
+import github from "../assets/github.svg";
+import telegram from "../assets/telegram.svg";
 
 const Footer = () => {
   return (
     <section className="border-t-[1px] border-[#646464] flex flex-col gap-[10px] footer bg-[#151515] pt-[30px] pb-[13px]">
 
       <div className='flex flex-row justify-center items-center'>
-        <img src="src\assets\Logo.png" alt="logo" className='w-[70px] ' />
-        <img src="src\assets\Logo2.png" alt="logo-2" className=' ml-[-20px] w-[140px] h-[60px]' />
+        <img src={logo} alt="logo" className='w-[70px] ' />
+        <img src={logo2} alt="logo-2" className=' ml-[-20px] w-[140px] h-[60px]' />
       </div>
 
       <div className='flex flex-row justify-center items-center gap-[60px]'>
 
         <a href="https://twitter.com/zomi.finance">
-          <img src="src\assets\twitter.svg" alt="twitter" className='w-[25px]'/>
+          <img src={twitter} alt="twitter" className='w-[25px]'/>
         </a>
 
         <a href="https://zomifinance.medium.com/">
-          <img src="src\assets\medium.svg" alt="medium"  className='w-[28px]'/>
+          <img src={medium} alt="medium"  className='w-[28px]'/>
         </a>
 
         <a href="https://github.com/zomi">
-          <img src="src\assets\github.svg" alt="github"  className='w-[28px]'/>
+          <img src={github} alt="github"  className='w-[28px]'/>
         </a>
 
         <a href="https://t.me/zomichat">
-          <img src="src\assets\telegram.svg" alt="telegram"  className='w-[28px]'/>
+          <img src={telegram} alt="telegram"  className='w-[28px]'/>
         </a>
 
         <a href="https://discord.com/invite/senshilabs">
-          <img src="src\assets\discord.svg" alt="discord"  className='w-[21px]'/>
+          <img src={discord} alt="discord"  className='w-[21px]'/>
         </a>
 
       </div>
